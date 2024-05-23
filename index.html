@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://experiments.wcwgiang.ca/ACC_training2/index.html#ADAS -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Adaptive Cruise Control</title>
+
+    
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #708090;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #f1f1f1;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #00008B;
+      }
+
+      .main {
+        margin-left: 20%; /* Same as the width of the sidenav */
+        font-size: 25px; /* Increased text to enable scrolling */
+        padding: 0px 15px;
+      }
+
+      @media screen and (max-height: 460px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <h2 style="padding: 0px 8px 0px 16px; color: #f1f1f1;">Table of Contents</h2>
+      <hr>
+      <a style="color: #00008B;" href="https://experiments.wcwgiang.ca/ACC_training2/index.html">Driver Assistance Systems</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/index.html#ADAS">What are Advanced Driver Assistance Systems?</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/index.html#SAE">SAE Levels of Automation</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/index.html#ACCfit">Where does Adaptive Cruise Control (ACC) fit in?</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/index.html#Roles">Roles and Responsibilities</a>
+      <a href="https://experiments.wcwgiang.ca/ACC_training2/NEW_SysFun.html">System Functionality</a>
+      <a href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html">Interface and Operation</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html#Interface">ACC Interface</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html#Activating">Turning On and Activating ACC</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html#Adjusting">Adjusting the Vehicle Speed</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html#Operation">During Operation</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_IntOp.html#Cancelling">Cancelling and Turning Off ACC</a>
+      <a href="https://experiments.wcwgiang.ca/ACC_training2/NEW_Lim.html">Limitations</a>
+    </div>
+
+    <div class="main">
+      <header>
+        <nav>
+        </nav>
+        <a style="padding-left: 90%" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_SysFun.html">Next</a>
+        <h2>Adaptive Cruise Control</h2>
+        <hr>
+      </header>
+      <main>
+        <section>
+          <h3>Driver Assistance Systems</h3>
+          <hr>
+        </section>
+
+        <section id="ADAS">
+          <h4>What are Advanced Driver Assistance Systems?</h4>
+            <p>Advanced Driver Assistance Systems (ADAS) are electronic systems within a vehicle that use technology to help drivers with certain driving and parking tasks. ADAS can do this by using cameras, radar sensors, automatic braking, etc. on vehicles to detect their surroundings. ADAS is implemented in vehicles as a safety feature which should help to keep drivers and passengers safe on the road. However, ADAS are not fully autonomous/self-driving. This means that drivers will have to remain in control for most of the driving tasks. </p>
+          <br>
+        </section>
+
+
+        <section id="SAE">
+          <h4>SAE Levels of Automation</h4>
+          <p>As driver assistance technology advances, the expectations of what you, as a driver, are required to do in order to operate your vehicle also changes. The Society of Automotive Engineers (SAE) have determined 6 levels of automation that can help drivers understand what to expect from a vehicle’s driver assistance technology.</p>
+          <img width="90%" src="./index_files/SAElevels1.png" alt="Image not available.">
+          <p><b>Level 0:</b> These vehicles have no automation. The driver does all the driving.</p>
+          <p><b>Level 1:</b> There are some ADAS features in these vehicles. ADAS may assist the driver with driving tasks, but the driver must still operate the vehicle. In addition, the driver must monitor the system. </p>
+          <p><b>Level 2:</b> There are some ADAS features in these vehicles. ADAS can perform more driving tasks, but the driver must monitor the system at all times. </p>
+          <p><b>Level 3:</b> The ADAS can fully operate the vehicle, but only under certain conditions. The driver must be ready to take over whenever the ADAS prompts it. </p>
+          <p><b>Level 4:</b> These vehicles are fully automated, but they can only work under certain ideal conditions. When they are working, the driver does not need to monitor the system.</p>
+          <p><b>Level 5:</b> These vehicles are fully automated. The vehicles can drive under any condition and there is no need for the driver to monitor the system.</p>
+            <br>
+        </section>
+
+        <section id="ACCfit">
+          <h4>Where does Adaptive Cruise Control (ACC) fit in?</h4>
+            <p>Adaptive Cruise Control (ACC) is a level 1 automated system. Remember that this means that you and your vehicle equipped with ACC may share driving tasks. This is a significant change from level 0 automation, where you, the driver, have full responsibility for operating your vehicle in any environment. </p>
+            <p>The ACC system can provide brake/acceleration support to you by maintaining a set speed or detecting slower-moving vehicles in front of your vehicle and maintaining a certain set distance behind. Level 1 automation, and ACC in specific, cannot detect everything on the road or in the driving environment. In order to use the system properly and reap its benefits, you must understand how your role changes from driving with no automation to driving with a Level 1 automated vehicle. </p>
+            <br>
+        </section>
+
+        <section id="Roles">
+          <h4>Roles and Responsibilities</h4>
+          <p>With increasing driver assistance system technology, the expectations of what you are responsible for while operating your vehicle must also change. While your physical driving tasks may decrease with advanced technology, you must learn to alter where you allocate your attention. In addition to operating some driving tasks that you are used to with manual driving, you must also take on a new role as a supervisor of the ACC system. </p>
+          <p>As a supervisor, you must now make sure that the system is working within its limits. To do so, you should have an understanding of how the system works. Then, you can scan the environment and know when the system may need your input or for you to take over. </p>
+          <img width="70%" src="./index_files/DrivingTaskDiagram2.png" alt="Image not available.">
+          <p><b>Driving Tasks:</b> You must operate driving tasks. ACC can provide brake/acceleration support to you by maintaining a set speed or detecting slower-moving vehicles in front of your vehicle and maintaining a certain set distance behind them. However, even when ACC is operating properly, it cannot steer your vehicle, keep you between the lanes, or change lanes for you.</p>
+          <p><b>Monitoring the Environment:</b> You must supervise the driving environment. There are limits on what ACC can detect. ACC is meant to detect slower-moving vehicles in front of your vehicle in order to maintain a certain set speed or distance behind that vehicle. It is not meant to detect road signs and may not operate in certain weather conditions such as in heavy rain or fog which could obscure other vehicles from being detected. </p>
+          <p><b>Monitoring the System:</b> You must understand how to tell when the system is on and how it is functioning. The dashboard display allows your vehicle to communicate this to you. Understand what functions are operating while you are using ACC.</p>
+          <br>
+        </section>
+
+
+      </main>
+
+    </div>
+    <footer style="font-size: 28px">
+      <a style="padding-left: 80%" href="https://experiments.wcwgiang.ca/ACC_training2/NEW_SysFun.html">Next</a>
+    </footer>
+  
+
+</body></html>
